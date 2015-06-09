@@ -16,7 +16,7 @@ module SCSSLint
         errors.each do |error|
           output << "#{i}. line #{error.location.line}, column #{error.location.column}-" \
             "#{error.location.length}: [#{error.severity}] #{error.linter.name if error.linter}: "\
-            "#{error.description.encode(xml: :attr)}"
+            "#{error.description.encode(xml: :attr)}\n"
           i += 1
         end
         output << "</failure>\n"
