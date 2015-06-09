@@ -1,15 +1,17 @@
+jUnit formatter for SCSS-Lint
+=============================
 
-# jUnit formatter for SCSS-Lint
-
-[SCSS-Lint](https://github.com/causes/scss-lint)
-
-
-## Requirements
-
-Ruby gem: scss-lint >= 0.32.0
+Developed by [Florian Eckerstorfer](https://florian.ec) and based on [scss_lint_reporter_checkstyle](https://github.com/Sweetchuck/scss_lint_reporter_checkstyle).
 
 
-## Installation
+Requirements
+------------
+
+Ruby gem: [scss-lint](https://github.com/causes/scss-lint) >= 0.32.0
+
+
+Installation
+------------
 
 ```bash
 gem install scss_lint_reporter_junit
@@ -29,9 +31,22 @@ Installed formatters:
  - JSON
 ```
 
-## Usage
+Usage
+-----
 
 ```bash
 scss-lint --require=scss_lint_reporter_junit --format=JUnit foo.scss
 ```
 [More detailed examples](https://github.com/causes/scss-lint/blob/master/README.md#usage)
+
+
+Changelog
+---------
+
+### Version 0.1.1 (9 June 2015)
+
+- Add missing line break between error messages
+
+### Version 0.1 (9 June 2015)
+
+- Initial release
