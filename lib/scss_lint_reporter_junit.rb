@@ -5,7 +5,7 @@ module SCSSLint
       output = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 
       output << "<testsuite name=\"scsslint\" failures=\"#{results.length}\">\n"
-      if !results.length
+      if results.length == 0
         output << "  <testcase name=\"Empty\"/>\n"
       end
       results.each do |file_name, errors|

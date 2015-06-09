@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
   s.license           = "MIT"
   s.name              = "scss_lint_reporter_junit"
-  s.version           = "0.1.1"
+  s.version           = "0.1.2"
   s.summary           = "Extend the scss-lint with a jUnit formatter"
   s.description       = "This gem add a new formatter to the scss-lint which is compatible with the jUnit standard."
   s.homepage          = "https://github.com/florianeckerstorfer/scss_lint_reporter_junit"

@@ -43,6 +43,10 @@ scss-lint --require=scss_lint_reporter_junit --format=JUnit foo.scss
 Changelog
 ---------
 
+### Version 0.1.2 (9 June 2015)
+
+- Fix printing empty testcase if no errors
+
 ### Version 0.1.1 (9 June 2015)
 
 - Add missing line break between error messages
